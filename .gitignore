@@ -73,3 +73,11 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Ignore all files starting with ._ (macOS metadata)
+._*
+
+# Ignore macOS .DS_Store files everywhere
+**/.DS_Store
+.DS_Store
+# Ignore macOS .AppleDouble files
